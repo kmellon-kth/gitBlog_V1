@@ -1,0 +1,24 @@
+.topic_container {
+  box-shadow: 10px 5px 5px gray;
+  border-radius: 20px;
+  overflow: hidden;
+
+  .topic {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+
+  .list {
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  & + & {
+    margin-top: 20px;
+  }
+}

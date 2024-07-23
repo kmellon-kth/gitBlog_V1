@@ -1,0 +1,28 @@
+.contantsPage_container {
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 90px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: antiquewhite;
+
+  box-shadow: 5px 5px 10px gray;
+  margin-bottom: 20px;
+
+  .title {
+    background: #e2818a;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+  }
+
+  .markdownDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee9dc;
+    padding: 15px;
+    padding-top: 20px;
+  }
+}

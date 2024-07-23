@@ -1,0 +1,49 @@
+.folder-structure {
+  .category {
+    margin-bottom: 20px;
+
+    .category-name {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+      padding: 5px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .folder-list {
+      list-style-type: none;
+      padding-left: 20px;
+    }
+  }
+
+  .folder {
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    .folder-name {
+      font-weight: bold;
+    }
+
+    .file-list {
+      list-style-type: none;
+      padding-left: 20px;
+      margin-top: 5px;
+    }
+  }
+
+  .file {
+    margin-top: 5px;
+    cursor: pointer;
+  }
+
+  .icon {
+    margin-right: 5px;
+  }
+
+  .arrow {
+    font-size: 0.8em;
+    margin-left: 5px;
+  }
+}
